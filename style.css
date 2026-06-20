@@ -269,17 +269,16 @@ footer { background-color: #1a2e1b; color: rgba(255,255,255,0.8); padding: 3.5re
 .hero-buttons { display: flex; gap: 1rem; flex-wrap: wrap; }
 .hero-img-placeholder { width: 100%; height: 420px; border-radius: 20px; background: linear-gradient(135deg, #b8d4b8 0%, var(--dark-green) 100%); display: flex; align-items: center; justify-content: center; font-size: 7rem; }
 
+
+.hero-img img{
+    width: 400px;      /* adjust size as needed */
+    height: auto;
+    display: block;
+}
 /* ===== COLOUR HELPERS ===== */
 .img-placeholder { display: flex; align-items: center; justify-content: center; font-size: 4rem; }
-.cat-dogs   { background: linear-gradient(135deg, #8B9D77, #5a7a4a); }
-.cat-cats   { background: linear-gradient(135deg, #c9a87c, #a07040); }
-.cat-birds  { background: linear-gradient(135deg, #7ecac3, #3d8b84); }
-.cat-fish   { background: linear-gradient(135deg, #7aa7d4, #2f6ba8); }
-.cat-small  { background: linear-gradient(135deg, #d4a7c9, #9a5a8e); }
-.prod-img-1 { background: linear-gradient(135deg, #e8f5e4, #c5dfc0); }
-.prod-img-2 { background: linear-gradient(135deg, #fff3d4, #f0d895); }
-.prod-img-3 { background: linear-gradient(135deg, #e4ecf5, #b8cfe8); }
-.prod-img-4 { background: linear-gradient(135deg, #f5e4e4, #e8b8b8); }
+
+
 .pi1 { background: linear-gradient(135deg, #e8f5e4, #a0d09a); }
 .pi2 { background: linear-gradient(135deg, #fff3d4, #f0d895); }
 .tp1 { background: linear-gradient(160deg, #a0c9a0, #4a7a4a); }
@@ -343,3 +342,49 @@ footer { background-color: #1a2e1b; color: rgba(255,255,255,0.8); padding: 3.5re
   .newsletter-form input { padding: 0.75rem 1.25rem; }
   .newsletter-form button { border-radius: 0 0 10px 10px; padding: 0.75rem; }
 }
+.category-image{
+    width:100%;
+    height:100%;
+    object-fit:cover; 
+    object-position: center;
+    display:block;
+}
+.category-card{
+    overflow: hidden;
+    border-radius: 16px;
+}
+.img-placeholder{
+    width:100%;
+    height:100%;
+    overflow:hidden;
+    border-radius:16px;
+}
+
+.category-card{
+    position:relative;
+    overflow:hidden;
+    border-radius:16px;
+}
+
+.category-image{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    object-position:center;
+    display:block;
+}
+
+.prod-img{
+    height:220px;
+    overflow:hidden;
+    border-radius:16px 16px 0 0;
+}
+
+.product-image{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    object-position:center;
+    display:block;
+}
+
