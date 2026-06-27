@@ -4,6 +4,8 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Contact Us – Paws & Tails</title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -16,7 +18,6 @@
       <li><a href="about.html" class="nav-hidden">About Us</a></li>
       <li><a href="features.html" class="nav-hidden">Features</a></li>
       <li><a href="contact.html" class="active">Contact</a></li>
-      <li><a href="contact.html" class="nav-cta">Visit Us</a></li>
     </ul>
   </nav>
 
@@ -36,36 +37,36 @@
         <p class="section-eyebrow">Get in Touch</p>
         <h2>We're Here for You &amp; Your Pet</h2>
         <div class="contact-detail">
-          <div class="icon">📍</div>
+          <div class="icon"><i class="fa-solid fa-location-dot"></i></div>
           <div><h4>Store Address</h4><p>Shop 12, Liberty Market<br>Gulberg III, Lahore, Punjab<br>Pakistan – 54660</p></div>
         </div>
         <div class="contact-detail">
-          <div class="icon">📞</div>
+          <div class="icon"><i class="fa-solid fa-phone"></i></div>
           <div><h4>Phone Number</h4><p>+92 300 1234567<br>+92 42 3571 0000</p></div>
         </div>
         <div class="contact-detail">
-          <div class="icon">✉️</div>
+          <div class="icon"><i class="fa-solid fa-envelope"></i></div>
           <div><h4>Email Address</h4><p>hello@pawsandtails.pk<br>support@pawsandtails.pk</p></div>
         </div>
-        <div class="contact-detail">
-          <div class="icon">⏰</div>
-          <div>
-            <h4>Business Hours</h4>
-            <table class="hours-table">
-              <tr><td>Monday – Friday</td><td>10:00 AM – 8:00 PM</td></tr>
-              <tr class="today"><td>Saturday</td><td>9:00 AM – 9:00 PM</td></tr>
-              <tr><td>Sunday</td><td>11:00 AM – 6:00 PM</td></tr>
-              <tr><td>Public Holidays</td><td>12:00 PM – 5:00 PM</td></tr>
-            </table>
-          </div>
+
+        <h4 style="margin-top:1.5rem;">Business Hours</h4>
+        <div class="hours-card">
+          <h4>Business Hours</h4>
+          <table class="hours-table">
+            <tr><td>Monday – Friday</td><td>10:00 AM – 8:00 PM</td></tr>
+            <tr class="today"><td>Saturday</td><td>9:00 AM – 9:00 PM</td></tr>
+            <tr><td>Sunday</td><td>11:00 AM – 6:00 PM</td></tr>
+            <tr><td>Public Holidays</td><td>12:00 PM – 5:00 PM</td></tr>
+          </table>
         </div>
+
         <div style="margin-top:2rem;">
           <h4 style="font-size:0.9rem;color:var(--dark-green);margin-bottom:0.5rem;">Follow Us</h4>
           <div class="social-links-row">
-            <a href="#" class="social-link-btn">f Facebook</a>
-            <a href="#" class="social-link-btn">𝕏 Twitter</a>
-            <a href="#" class="social-link-btn">📸 Instagram</a>
-            <a href="#" class="social-link-btn">▶ YouTube</a>
+            <a href="#" class="social-link-btn"><i class="fa-brands fa-facebook-f"></i> Facebook</a>
+            <a href="#" class="social-link-btn"><i class="fa-brands fa-x-twitter"></i> Twitter</a>
+            <a href="#" class="social-link-btn"><i class="fa-brands fa-instagram"></i> Instagram</a>
+            <a href="#" class="social-link-btn"><i class="fa-brands fa-youtube"></i> YouTube</a>
           </div>
         </div>
       </div>
@@ -105,12 +106,16 @@
       <h2>Visit Our Store</h2>
       <p>We're located in the heart of Lahore — easy to reach by car, auto, or ride-share.</p>
     </div>
-    <div class="map-placeholder">
-      <div class="map-icon">🗺️</div>
-      <p>Paws &amp; Tails — Liberty Market, Lahore</p>
-      <p style="font-family:Arial,sans-serif;font-size:0.8rem;opacity:0.7;font-weight:400;">Google Maps integration goes here</p>
-      <a href="https://maps.google.com" target="_blank" class="btn-primary" style="font-size:0.85rem;padding:0.6rem 1.5rem;">Open in Google Maps</a>
-    </div>
+    
+<div class="map-placeholder" style="background-image:url('map.jpg');">
+  <div class="map-overlay">
+    <div class="map-icon"><i class="fa-solid fa-map-location-dot"></i></div>
+    <p>Paws &amp; Tails — Liberty Market, Lahore</p>
+    <p style="font-family:Arial,sans-serif;font-size:0.8rem;opacity:0.7;font-weight:400;">Google Maps integration goes here</p>
+    <a href="https://maps.google.com" target="_blank" class="btn-primary" style="font-size:0.85rem;padding:0.6rem 1.5rem;">Open in Google Maps</a>
+  </div>
+</div>
+    
   </section>
 
   <!-- FAQ -->
@@ -164,11 +169,54 @@
       <div class="footer-brand">
         <div class="logo">Paws <span>&amp; Tails</span>™</div>
         <p>Your one-stop destination for premium pet products, expert grooming, and compassionate care.</p>
-        <div class="social-icons"><a href="#">f</a><a href="#">in</a><a href="#">𝕏</a><a href="#">▶</a></div>
-      </div>
+<div class="social-icons">
+    <a href="https://www.facebook.com/" target="_blank">
+        <i class="fa-brands fa-facebook-f"></i>
+    </a>
+
+    <a href="https://www.linkedin.com/" target="_blank">
+        <i class="fa-brands fa-linkedin-in"></i>
+    </a>
+
+    <a href="https://x.com/" target="_blank">
+        <i class="fa-brands fa-x-twitter"></i>
+    </a>
+
+    <a href="https://www.youtube.com/" target="_blank">
+        <i class="fa-brands fa-youtube"></i>
+    </a>
+</div>      </div>
       <div class="footer-col"><h4>Quick Links</h4><ul><li><a href="index.html">Home</a></li><li><a href="about.html">About Us</a></li><li><a href="features.html">Features</a></li><li><a href="contact.html">Contact Us</a></li></ul></div>
       <div class="footer-col"><h4>Services</h4><ul><li><a href="features.html">Grooming</a></li><li><a href="features.html">Vet Consultation</a></li><li><a href="features.html">Pet Adoption</a></li><li><a href="features.html">Home Delivery</a></li></ul></div>
-      <div class="footer-col"><h4>Contact</h4><ul><li><a href="#">📍 Liberty Market, Lahore</a></li><li><a href="#">📞 +92 300 1234567</a></li><li><a href="#">✉️ hello@pawsandtails.pk</a></li><li><a href="#">⏰ Mon–Sat, 10am–8pm</a></li></ul></div>
+      <div class="footer-col"><h4>Contact</h4><ul>
+<li>
+        <a href="#">
+            <i class="fa-solid fa-location-dot"></i>
+            Liberty Market, Lahore
+        </a>
+    </li>
+
+    <li>
+        <a href="tel:+923001234567">
+            <i class="fa-solid fa-phone"></i>
+            +92 300 1234567
+        </a>
+    </li>
+
+    <li>
+        <a href="mailto:hello@pawsandtails.pk">
+            <i class="fa-solid fa-envelope"></i>
+            hello@pawsandtails.pk
+        </a>
+    </li>
+
+    <li>
+        <a href="#">
+            <i class="fa-solid fa-clock"></i>
+            Mon–Sat, 10am–8pm
+        </a>
+    </li>
+  </ul></div>
     </div>
     <div class="footer-bottom">
       <p>© 2024 Paws &amp; Tails. All rights reserved.</p>
